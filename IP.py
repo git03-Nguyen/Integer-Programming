@@ -27,7 +27,8 @@ integrality = np.ones_like(c)
 res = milp(c=c, constraints=constraints, integrality=integrality)
 print(res.x)
 
-
+# Ket qua ham muc tieu:
+print(res.fun)
 
 
 
